@@ -22,8 +22,8 @@ def getcol (matrix, col):
         column += matrix[i:i+n]
     return column
 
-def getrow(matrix, row):
-    print(type(matrix))
+def getrow (matrix, row):
+    
     return matrix[row*2*8 : row*2*8+(2*8)] 
 
 def multiply(a, b):
